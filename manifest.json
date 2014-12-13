@@ -1,0 +1,16 @@
+{
+  "manifest_version":2,
+  "name": "DEV BY ONE COLUMN UI",
+  "version": "1.0.5",
+  "description": "Changes Dev.By site layout to single column style",
+  "background": "background.html",
+  "content_scripts": [ {
+    "js": [ "jquery-2.1.0.min.js", "arrive.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "icons":
+  {
+     "128" :"icon.png"
+  }
+
+}
